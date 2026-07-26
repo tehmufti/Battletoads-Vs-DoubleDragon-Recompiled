@@ -1,0 +1,12 @@
+{
+  "name": "btdd-recomp",
+  "version": "1.0.0",
+  "description": "Battletoads & Double Dragon (NES) statically recompiled to C — bring your own ROM",
+  "type": "module",
+  "scripts": {
+    "gen": "node tools/gen-c.mjs",
+    "build": "powershell -ExecutionPolicy Bypass -File build.ps1 -Win",
+    "build:headless": "powershell -ExecutionPolicy Bypass -File build.ps1 -Gen",
+    "verify": "node tools/verify-recomp.mjs"
+  }
+}

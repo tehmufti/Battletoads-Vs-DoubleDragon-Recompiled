@@ -1,0 +1,11 @@
+flicker_limit=0
+key0=90
+key1=88
+key2=13
+key3=161
+key4=38
+key5=40
+key6=37
+key7=39
+key8=116
+key9=118
